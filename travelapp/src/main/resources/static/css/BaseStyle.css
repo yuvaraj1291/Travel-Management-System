@@ -1,0 +1,216 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	 font-family: 'Roboto', 'sans-serif';
+}
+body,html{
+	    font-family: 'Roboto', 'sans-serif' !important;
+	    font-size: 16px !important;
+	    background:#fff;
+	    height:100%;
+	    overflow:hidden;
+}
+
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #f2e6e7;
+    text-shadow: none;
+}
+
+::selection {
+    background: #16a085;
+    color: #f2e6e7;
+    text-shadow: none;
+}
+.textCenter{
+	text-align:center;
+}
+.zeroMargin{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+a{
+ text-decoration: none !important;	
+ cursor: pointer;
+}
+
+a:hover{
+	top: 0;
+        color: #23527c;
+    text-decoration: underline;
+}
+
+.mainWrapper{
+	height:86%;
+	margin-top:-20px;
+	background-color:#f0eeee;
+	overflow:auto;	
+}
+
+.fullHeight{
+	height:100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white !important;
+}
+
+.borderColor{
+    border-style: solid;
+    border-width: 1px 1px 2px 1px;
+    border-color: #cfcfcf;}
+    
+
+
+/* <-- home Page -> */
+
+.homeImage{
+    height: 100%;
+    width:100%;
+    margin-top:-20px;
+    background: url("/images/background2.png");
+    background-size: cover;
+    max-height:100%;
+    max-width:100%;
+    background-repeat: no-repeat;
+    
+}
+
+.inputPlace{
+    height:100%;
+    width:100%;
+}
+
+
+
+
+/* <-- dashboard Page -> */
+.sidenavleft{
+	height:100%;
+	float:left;
+	
+	
+}
+.sidenavright{
+	margin-top:50px;
+}
+/* <-- Login Details -> */
+.divcenter{
+	max-width:500px;
+	margin: 0 auto !important;
+	position: relative;
+	float: none;
+}
+.inline-block{
+	float:none;
+	display: inline-block;
+}
+.tabs{
+	list-style: none;
+    text-align: center;
+}
+.tabs li a{
+	display: block;
+    padding: 0 15px;
+    color: #444;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.titleClass{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight:500px;
+	}
+
+
+/* <-- Dashboard Details -> */
+.placesDiv{
+	overflow: auto;
+	height:85%;
+}
+
+.placesDiv::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+/* <-- place Details -> */
+.rightPlacesDiv{
+	margin-top: 10px;
+}
+
+.secondRow{
+	height: 74%;
+    margin-top: 23px;
+    /* overflow: auto; */
+    width: 100%;
+}
+.placeDiv{
+	height: 100%;
+    overflow: auto;
+    width: 60%;
+    float:left;
+}
+.reviews{
+	height: 100%;
+    overflow: auto;
+    width: 60%;
+    float:left;
+}
+.reviewstab{
+	height:30px;
+}
+.reviews .reviewstab li{
+	    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    padding: 5px;
+    white-space: nowrap;
+    background-color: #8a8b8a;
+    margin-bottom: -1px;
+    border: 1px solid #d3d3d3;
+}
+.ul-class{
+	    width: 80%;
+    margin-left: 20px;
+}
+.margin-left{
+	margin-left:10px;
+}
+.weatherDiv{
+	float:right;
+	width:40%;
+}
+.buttonClass{
+	margin-top:10px;
+}
+.climateCity{
+	width: 300px;
+    text-align: center;
+}
+.temperature{
+	float:left;
+	margin-top:10px;
+}
+
+
+/* <-- Footer Details -> */
+.footer{
+	height:6%;
+	background-color: #8a8b8a;
+	color:white;
+}
+.footerCenter{
+	text-align:center;
+	padding-top:10px;
+}
+
+
